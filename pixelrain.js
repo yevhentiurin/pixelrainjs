@@ -104,6 +104,8 @@
   function clear()
   {
     ctx.clearRect(0, 0, cvs.width, cvs.height);
+    ctx.fillStyle = "#EFEFEF";
+    ctx.fillRect(0, 0, cvs.width, cvs.height);
   };
 
   function draw()
